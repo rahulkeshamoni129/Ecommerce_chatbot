@@ -1,0 +1,244 @@
+{
+  "products": [
+    {
+      "id": "P001",
+      "name": "QuantumCore Laptop",
+      "category": "Electronics",
+      "price": 1299.99,
+      "description": "A high-performance laptop with a 15-inch 4K display, 32GB RAM, and 1TB SSD. Perfect for professionals and gamers.",
+      "in_stock": true
+    },
+    {
+      "id": "P002",
+      "name": "Chrono-Watch Model X",
+      "category": "Fashion",
+      "price": 499.50,
+      "description": "A stylish and elegant smartwatch with fitness tracking, heart rate monitor, and a durable sapphire glass screen.",
+      "in_stock": true
+    },
+    {
+      "id": "P003",
+      "name": "AcousticBliss Headphones",
+      "category": "Electronics",
+      "price": 199.99,
+      "description": "Noise-cancelling over-ear headphones with superior sound quality and a 40-hour battery life.",
+      "in_stock": false
+    },
+    {
+      "id": "P004",
+      "name": "Terra-Trek Backpack",
+      "category": "Accessories",
+      "price": 89.99,
+      "description": "A durable, water-resistant backpack with multiple compartments and a padded laptop sleeve. Ideal for hiking and daily commutes.",
+      "in_stock": true
+    },
+    {
+      "id": "P005",
+      "name": "Ergo-Pro Gaming Chair",
+      "category": "Furniture",
+      "price": 349.00,
+      "description": "An ergonomic gaming chair with lumbar support, adjustable armrests, and a high-back design for maximum comfort.",
+      "in_stock": true
+    },
+    {
+      "id": "P006",
+      "name": "StellarView 4K Monitor",
+      "category": "Electronics",
+      "price": 650.00,
+      "description": "A 27-inch 4K UHD monitor with HDR support, providing stunning visuals and vibrant colors for creative work and entertainment.",
+      "in_stock": true
+    },
+    {
+      "id": "P007",
+      "name": "FlexiFit Yoga Mat",
+      "category": "Sports",
+      "price": 45.50,
+      "description": "A non-slip, eco-friendly yoga mat that provides excellent cushioning and support for your practice.",
+      "in_stock": true
+    },
+    {
+      "id": "P008",
+      "name": "SmartHome Hub Gen 2",
+      "category": "Electronics",
+      "price": 129.00,
+      "description": "Control all your smart home devices from a single hub. Compatible with Alexa, Google Assistant, and Apple HomeKit.",
+      "in_stock": true
+    },
+    {
+      "id": "P009",
+      "name": "Artisan's Brew Coffee Maker",
+      "category": "Home Goods",
+      "price": 159.95,
+      "description": "A programmable coffee maker with a built-in grinder that delivers the perfect cup of coffee every time.",
+      "in_stock": true
+    },
+    {
+      "id": "P010",
+      "name": "Velocity Pro Running Shoes",
+      "category": "Footwear",
+      "price": 135.00,
+      "description": "Lightweight and responsive running shoes designed for speed and comfort, featuring advanced cushioning technology.",
+      "in_stock": true
+    },
+    {
+      "id": "P011",
+      "name": "Aero-Drone Explorer",
+      "category": "Gadgets",
+      "price": 899.00,
+      "description": "A 4K camera drone with a 30-minute flight time, intelligent flight modes, and a 5-mile transmission range.",
+      "in_stock": true
+    },
+    {
+      "id": "P012",
+      "name": "Aqua-Purify Smart Bottle",
+      "category": "Accessories",
+      "price": 79.99,
+      "description": "A self-cleaning water bottle that uses UV-C LED light to eliminate 99.9% of bio-contaminants. Keeps your water pure and the bottle stink-free.",
+      "in_stock": true
+    },
+    {
+      "id": "P013",
+      "name": "Nova-Glow Desk Lamp",
+      "category": "Furniture",
+      "price": 65.00,
+      "description": "A modern LED desk lamp with adjustable brightness, color temperature, and a built-in wireless charging pad for your phone.",
+      "in_stock": true
+    },
+    {
+      "id": "P014",
+      "name": "Gourmet Chef Knife Set",
+      "category": "Home Goods",
+      "price": 250.00,
+      "description": "A 15-piece professional knife set made from high-carbon German steel, complete with a wooden storage block.",
+      "in_stock": false
+    },
+    {
+      "id": "P015",
+      "name": "Evergreen Classic Tent",
+      "category": "Sports",
+      "price": 180.00,
+      "description": "A 4-person dome tent designed for easy setup and weather resistance, making it perfect for family camping trips.",
+      "in_stock": true
+    },
+    {
+      "id": "P016",
+      "name": "SilentKey Mechanical Keyboard",
+      "category": "Electronics",
+      "price": 150.00,
+      "description": "A quiet mechanical keyboard with customizable RGB backlighting and programmable macro keys. Ideal for both work and play.",
+      "in_stock": true
+    },
+    {
+      "id": "P017",
+      "name": "Urban Voyager Messenger Bag",
+      "category": "Fashion",
+      "price": 110.00,
+      "description": "A stylish and functional messenger bag crafted from waxed canvas with leather accents, featuring a padded compartment for a 15-inch laptop.",
+      "in_stock": true
+    },
+    {
+      "id": "P018",
+      "name": "PowerCore+ 20000 Power Bank",
+      "category": "Gadgets",
+      "price": 59.99,
+      "description": "A high-capacity portable charger that can charge most phones over 5 times. Features fast-charging technology.",
+      "in_stock": true
+    },
+    {
+      "id": "P019",
+      "name": "Zen Garden Aroma Diffuser",
+      "category": "Home Goods",
+      "price": 39.99,
+      "description": "An ultrasonic essential oil diffuser that adds a calming ambiance to any room. Features multiple light settings and a timer.",
+      "in_stock": true
+    },
+    {
+      "id": "P020",
+      "name": "TrekMaster Hiking Boots",
+      "category": "Footwear",
+      "price": 175.00,
+      "description": "Waterproof and breathable hiking boots with excellent ankle support and a rugged outsole for superior traction on all terrains.",
+      "in_stock": true
+    },
+    {
+      "id": "P021",
+      "name": "GalaxyTab Pro",
+      "category": "Electronics",
+      "price": 749.99,
+      "description": "A 12.4-inch tablet with a stunning AMOLED display, powerful processor, and an included S-Pen for productivity and creativity.",
+      "in_stock": true
+    },
+    {
+      "id": "P022",
+      "name": "PrecisionClick Wireless Mouse",
+      "category": "Electronics",
+      "price": 49.99,
+      "description": "An ergonomic wireless mouse with adjustable DPI, silent clicks, and a long-lasting battery. Connects via Bluetooth or USB dongle.",
+      "in_stock": true
+    },
+    {
+      "id": "P023",
+      "name": "CrystalClear 1080p Webcam",
+      "category": "Electronics",
+      "price": 89.99,
+      "description": "A full HD 1080p webcam with a built-in ring light and dual microphones for crystal-clear video calls and streaming.",
+      "in_stock": true
+    },
+    {
+      "id": "P024",
+      "name": "CineMagic Portable Projector",
+      "category": "Electronics",
+      "price": 499.00,
+      "description": "A compact and portable projector that can create a 150-inch screen. Features built-in speakers and smart TV capabilities.",
+      "in_stock": false
+    },
+    {
+      "id": "P025",
+      "name": "EchoSphere Smart Speaker",
+      "category": "Electronics",
+      "price": 99.99,
+      "description": "A voice-controlled smart speaker with rich, 360-degree sound. Play music, set alarms, and control your smart home with just your voice.",
+      "in_stock": true
+    },
+    {
+      "id": "P026",
+      "name": "VirtuReal VR Headset",
+      "category": "Electronics",
+      "price": 399.00,
+      "description": "An all-in-one virtual reality headset that offers immersive gaming and entertainment experiences with no PC or console required.",
+      "in_stock": true
+    },
+    {
+      "id": "P027",
+      "name": "Titan RTX Graphics Card",
+      "category": "Electronics",
+      "price": 1999.00,
+      "description": "The ultimate graphics card for gamers and creators, delivering incredible performance with real-time ray tracing and AI-enhanced graphics.",
+      "in_stock": false
+    },
+    {
+      "id": "P028",
+      "name": "NetMaster Wi-Fi 6 Router",
+      "category": "Electronics",
+      "price": 299.99,
+      "description": "A next-generation Wi-Fi 6 router that provides faster speeds, greater capacity, and less network congestion for all your devices.",
+      "in_stock": true
+    },
+    {
+      "id": "P029",
+      "name": "CapturePro Digital Camera",
+      "category": "Electronics",
+      "price": 950.00,
+      "description": "A mirrorless digital camera with a 24MP sensor, 4K video recording, and interchangeable lenses. Perfect for photography enthusiasts.",
+      "in_stock": true
+    },
+    {
+      "id": "P030",
+      "name": "DataVault 4TB External HDD",
+      "category": "Electronics",
+      "price": 119.99,
+      "description": "A reliable 4TB external hard drive with USB 3.0 for fast data transfers. Keep your important files backed up and secure.",
+      "in_stock": true
+    }
+  ]
+}

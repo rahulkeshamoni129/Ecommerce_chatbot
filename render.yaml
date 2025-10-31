@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: ecommerce-chatbot
+    env: python
+    runtime: python-3.12.0
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn app:app"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.0
+      - key: PORT
+        value: 10000
+      - key: FLASK_RUN_HOST
+        value: 0.0.0.0
