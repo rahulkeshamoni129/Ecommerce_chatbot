@@ -17,18 +17,7 @@ An intelligent e-commerce chatbot with **81.05% accuracy** using Linear SVM and 
 - ✅ **Production Ready** - Configured for Render/Heroku deployment
 - ✅ **Fast Startup** - No database connection delays
 
-## 🚀 Quick Deploy to Render
-
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com)
-
-**See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed deployment instructions.**
-
-Quick steps:
-1. Push to GitHub
-2. Connect to Render
-3. Deploy automatically using `render.yaml`
-4. Done! Your chatbot is live 🎉
-
+=
 ## 💻 Local Development
 
 ### Prerequisites
@@ -36,45 +25,6 @@ Quick steps:
 - pip (Python package manager)
 
 ### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/ecommerce-chatbot.git
-   cd ecommerce-chatbot
-   ```
-
-2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the application**
-   ```bash
-   python app.py
-   ```
-
-4. **Open in browser**
-   - Navigate to http://127.0.0.1:5000
-   - Start chatting!
-
-## 🧪 Testing
-
-**Test the model directly:**
-```bash
-python direct_test.py
-```
-
-**Test without MongoDB:**
-```bash
-python test_no_mongodb.py
-```
-
-**Run with different queries:**
-```bash
-curl -X POST http://127.0.0.1:5000/chat \
-  -H "Content-Type: application/json" \
-  -d '{"message":"hello"}'
-```
 
 ## 📊 Model Performance
 
@@ -128,39 +78,12 @@ ecommerce_chatbot/
 6. **Support**: returns, technical_support, account_management
 7. **Marketing**: promotions, chitchat
 
-## 🎨 Customization
-
-### Add New Intents
-
-Edit `model/intents.json`:
-```json
-{
-  "tag": "your_intent",
-  "patterns": [
-    "sample question 1",
-    "sample question 2"
-  ],
-  "responses": [
-    "response 1",
-    "response 2"
-  ]
-}
-```
-
 ### Retrain Model
 ```bash
 python model/train_sklearn_model.py
 ```
 
-### Update Mock Orders
 
-Edit `app.py` - `mock_orders` dictionary:
-```python
-mock_orders = {
-    "ORD100": {"status": "In transit", "eta": "2 days", ...},
-    # Add more orders
-}
-```
 
 ## 📈 Performance Improvements
 
@@ -169,40 +92,8 @@ See [ACCURACY_IMPROVEMENT.md](ACCURACY_IMPROVEMENT.md) for details:
 - Final: **81.05% accuracy** (Linear SVM with optimized data)
 - 8x improvement through algorithm change and data expansion
 
-## 🔧 Configuration
 
-### Environment Variables (Optional)
 
-- `PORT` - Server port (default: 5000)
-- `FLASK_RUN_HOST` - Host address (default: 127.0.0.1)
-- `FLASK_DEBUG` - Debug mode (default: False)
-
-### Production Deployment
-
-Uses **Gunicorn** WSGI server (configured in `Procfile`):
-```
-web: gunicorn app:app
-```
-
-## 📚 Documentation
-
-- [DEPLOYMENT.md](DEPLOYMENT.md) - Detailed deployment guide
-- [ACCURACY_IMPROVEMENT.md](ACCURACY_IMPROVEMENT.md) - Model improvement journey
-- [MONGODB_REMOVAL.md](MONGODB_REMOVAL.md) - Database simplification
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add/update tests
-5. Submit a pull request
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-
-## 🎉 Credits
 
 Built with:
 - Flask (Web framework)
@@ -210,7 +101,4 @@ Built with:
 - Linear SVM (Classification algorithm)
 - TF-IDF (Feature extraction)
 
----
-
-**Made with ❤️ for e-commerce customer service automation**
 
